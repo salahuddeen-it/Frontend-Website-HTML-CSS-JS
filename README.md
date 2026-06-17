@@ -7,16 +7,27 @@ A modern, responsive and interactive portfolio website built using HTML, CSS and
 ## 🚀 Features
 
 ✨ Modern & Professional UI Design
+
 📱 Fully Responsive (Mobile, Tablet & Desktop)
+
 🎨 Smooth CSS Animations & Transitions
+
 🧭 Sticky Navigation Bar
+
 🔍 Active Navigation Highlight
+
 💼 Projects Showcase Section
+
 ⚙️ Services Section
+
 💬 Testimonials Slider
+
 📞 Contact Section
+
 ⚡ Smooth Scrolling Experience
-🎯 Interactive User Experienc
+
+🎯 Interactive User Experience
+
 🛠️ Clean & Organized Code Structure
 
 ---
@@ -34,11 +45,17 @@ A modern, responsive and interactive portfolio website built using HTML, CSS and
 portfolio-website/
 
 │
+
 ├── index.html
+
 ├── projects.html
+
 ├── services.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
 
 ---
@@ -72,8 +89,11 @@ This project helped me understand:
 ## 🚀 How to Run
 
 1. Clone the repository
+
 2. Open the project folder
+
 3. Run `index.html` in your browser
+
 4. Explore the website 🚀
 
 ---
