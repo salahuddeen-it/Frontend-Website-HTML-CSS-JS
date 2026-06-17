@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Frontend Best Practices</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+<nav class="navbar">
+
+  <h2 class="logo">DevPortfolio</h2>
+
+  <div class="menu-toggle" id="menuToggle">
+    ☰
+  </div>
+
+  <ul class="nav-links" id="navLinks">
+
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+  </ul>
+
+</nav>
+  <!-- HERO -->
+
+  <section class="hero" id="home">
+
+<h1 id="typingText"></h1>
+
+    <p>
+      Responsive layouts, animations, sliders and interactive JavaScript features.
+    </p>
+
+    <button id="heroBtn">Explore More</button>
+
+  </section>
+
+  <!-- SLIDER -->
+
+<section class="slider">
+
+  <div class="slider-container">
+
+    <img class="slide active"
+      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+      alt="">
+
+    <img class="slide"
+      src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+      alt="">
+
+    <img class="slide"
+      src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+      alt="">
+
+  </div>
+
+<div class="dots">
+  <span class="dot active-dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+</section>
+
+
+  <!-- FEATURES -->
+
+  <section class="features" id="featuresContainer">
+
+  </section>
+
+<br><br><br><br><br><br><br>
+  <!-- ABOUT US -->
+     <!-- HERO -->
+
+  <section class="about" id="about">
+
+    <h1>About</h1>
+
+    <p>
+    We are passionate frontend developers focused on creating modern,
+    responsive and user-friendly web experiences. Our goal is to build
+    visually appealing websites with smooth animations, interactive
+    features and optimized performance across all devices.
+    </p>
+</section>
+
+<section class="about-container">
+
+  <div class="about-gallery">
+
+    <div class="about-item">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt=""><br><br>
+      <h4>Frontend Development</h4>
+    </div>
+
+    <div class="about-item">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt=""><br><br>
+      <h4>Responsive Design</h4>
+    </div>
+
+    <div class="about-item">
+      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692" alt=""><br><br>
+      <h4>Modern UI/UX</h4>
+    </div>
+
+  </div>
+
+</section>
+<br><br><br><br><br><br><br>
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <h1>Contact Us</h1>
+<br><br><br>
+
+    <form id="contactForm">
+
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <textarea id="message" placeholder="Your message"></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>© 2026 DevPortfolio. All Rights Reserved.</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
